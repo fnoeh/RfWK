@@ -1,0 +1,126 @@
+{
+    "id": 57,
+    "object": "radical",
+    "url": "https://api.wanikani.com/v2/subjects/57",
+    "data_updated_at": "2019-08-29T18:43:47.802004Z",
+    "data": {
+        "created_at": "2012-03-01T01:50:35.000000Z",
+        "level": 3,
+        "slug": "spoon",
+        "hidden_at": null,
+        "document_url": "https://www.wanikani.com/radicals/spoon",
+        "characters": "匕",
+        "character_images": [
+            {
+                "url": "https://cdn.wanikani.com/images/635-subject-57-without-css-original.svg?1520987245",
+                "metadata": {
+                    "inline_styles": false
+                },
+                "content_type": "image/svg+xml"
+            },
+            {
+                "url": "https://cdn.wanikani.com/images/1113-subject-57-normal-weight-black-original.png?1520987764",
+                "metadata": {
+                    "color": "#000000",
+                    "dimensions": "1024x1024",
+                    "style_name": "original"
+                },
+                "content_type": "image/png"
+            },
+            {
+                "url": "https://cdn.wanikani.com/images/1113-subject-57-normal-weight-black-1024px.png?1520987764",
+                "metadata": {
+                    "color": "#000000",
+                    "dimensions": "1024x1024",
+                    "style_name": "1024px"
+                },
+                "content_type": "image/png"
+            },
+            {
+                "url": "https://cdn.wanikani.com/images/1113-subject-57-normal-weight-black-512px.png?1520987764",
+                "metadata": {
+                    "color": "#000000",
+                    "dimensions": "512x512",
+                    "style_name": "512px"
+                },
+                "content_type": "image/png"
+            },
+            {
+                "url": "https://cdn.wanikani.com/images/1113-subject-57-normal-weight-black-256px.png?1520987764",
+                "metadata": {
+                    "color": "#000000",
+                    "dimensions": "256x256",
+                    "style_name": "256px"
+                },
+                "content_type": "image/png"
+            },
+            {
+                "url": "https://cdn.wanikani.com/images/1113-subject-57-normal-weight-black-128px.png?1520987764",
+                "metadata": {
+                    "color": "#000000",
+                    "dimensions": "128x128",
+                    "style_name": "128px"
+                },
+                "content_type": "image/png"
+            },
+            {
+                "url": "https://cdn.wanikani.com/images/1113-subject-57-normal-weight-black-64px.png?1520987764",
+                "metadata": {
+                    "color": "#000000",
+                    "dimensions": "64x64",
+                    "style_name": "64px"
+                },
+                "content_type": "image/png"
+            },
+            {
+                "url": "https://cdn.wanikani.com/images/1113-subject-57-normal-weight-black-32px.png?1520987764",
+                "metadata": {
+                    "color": "#000000",
+                    "dimensions": "32x32",
+                    "style_name": "32px"
+                },
+                "content_type": "image/png"
+            },
+            {
+                "url": "https://cdn.wanikani.com/images/157-subject-57-with-css-original.svg?1520987095",
+                "metadata": {
+                    "inline_styles": true
+                },
+                "content_type": "image/svg+xml"
+            }
+        ],
+        "meanings": [
+            {
+                "meaning": "Spoon",
+                "primary": true,
+                "accepted_answer": true
+            }
+        ],
+        "auxiliary_meanings": [],
+        "amalgamation_subject_ids": [
+            517,
+            557,
+            607,
+            617,
+            781,
+            797,
+            894,
+            921,
+            1414,
+            1456,
+            1672,
+            1674,
+            1863,
+            1914,
+            2014,
+            2051,
+            2063,
+            2131,
+            2329,
+            2349,
+            2405
+        ],
+        "meaning_mnemonic": "Meaning mnemonic for spoon.",
+        "lesson_position": 11
+    }
+}

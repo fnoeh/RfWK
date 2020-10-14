@@ -1,4 +1,65 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19G2021" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Kanji" representedClassName="Kanji" parentEntity="Subject" syncable="YES" codeGenerationType="class">
+        <relationship name="readings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="KanjiReading" inverseName="kanji" inverseEntity="KanjiReading"/>
+    </entity>
+    <entity name="KanjiReading" representedClassName="KanjiReading" parentEntity="SubjectReading" syncable="YES" codeGenerationType="class">
+        <attribute name="type" attributeType="String"/>
+        <relationship name="kanji" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kanji" inverseName="readings" inverseEntity="Kanji"/>
+        <relationship name="reading" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Reading" inverseName="kanjiReadings" inverseEntity="Reading"/>
+    </entity>
+    <entity name="Radical" representedClassName="Radical" parentEntity="Subject" syncable="YES" codeGenerationType="class"/>
+    <entity name="Reading" representedClassName="Reading" syncable="YES" codeGenerationType="class">
+        <attribute name="reading" attributeType="String"/>
+        <relationship name="kanjiReadings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="KanjiReading" inverseName="reading" inverseEntity="KanjiReading"/>
+        <relationship name="vocabularyReadings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="VocabularyReading" inverseName="reading" inverseEntity="VocabularyReading"/>
+    </entity>
+    <entity name="Subject" representedClassName="Subject" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="characters" optional="YES" attributeType="String"/>
+        <attribute name="document_url" optional="YES" attributeType="URI"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="level" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="meaning_hint" optional="YES" attributeType="String"/>
+        <attribute name="meaning_mnemonic" optional="YES" attributeType="String"/>
+        <attribute name="object" attributeType="String"/>
+        <attribute name="reading_hint" optional="YES" attributeType="String"/>
+        <attribute name="reading_mnemonic" optional="YES" attributeType="String"/>
+        <attribute name="slug" optional="YES" attributeType="String"/>
+        <relationship name="subjectTranslations" toMany="YES" deletionRule="Cascade" destinationEntity="SubjectTranslation" inverseName="subject" inverseEntity="SubjectTranslation"/>
+    </entity>
+    <entity name="SubjectReading" representedClassName="SubjectReading" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="primary" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="SubjectTranslation" representedClassName="SubjectTranslation" syncable="YES" codeGenerationType="class">
+        <attribute name="auxiliary" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="primary" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <relationship name="subject" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Subject" inverseName="subjectTranslations" inverseEntity="Subject"/>
+        <relationship name="translation" maxCount="1" deletionRule="Nullify" destinationEntity="Translation" inverseName="subjectTranslations" inverseEntity="Translation"/>
+    </entity>
+    <entity name="Translation" representedClassName="Translation" syncable="YES" codeGenerationType="class">
+        <attribute name="meaning" attributeType="String"/>
+        <relationship name="subjectTranslations" toMany="YES" deletionRule="Cascade" destinationEntity="SubjectTranslation" inverseName="translation" inverseEntity="SubjectTranslation"/>
+        <fetchIndex name="byMeaning">
+            <fetchIndexElement property="meaning" type="Binary" order="ascending"/>
+        </fetchIndex>
+    </entity>
+    <entity name="Vocabulary" representedClassName="Vocabulary" parentEntity="Subject" syncable="YES" codeGenerationType="class">
+        <relationship name="readings" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="VocabularyReading" inverseName="vocabulary" inverseEntity="VocabularyReading"/>
+    </entity>
+    <entity name="VocabularyReading" representedClassName="VocabularyReading" parentEntity="SubjectReading" syncable="YES" codeGenerationType="class">
+        <relationship name="reading" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Reading" inverseName="vocabularyReadings" inverseEntity="Reading"/>
+        <relationship name="vocabulary" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vocabulary" inverseName="readings" inverseEntity="Vocabulary"/>
+    </entity>
+    <elements>
+        <element name="Kanji" positionX="-1088.57421875" positionY="-1484.8515625" width="128" height="58"/>
+        <element name="KanjiReading" positionX="-1371.109375" positionY="-1545.73046875" width="128" height="88"/>
+        <element name="Radical" positionX="-1096.67578125" positionY="-1640.953125" width="128" height="43"/>
+        <element name="Reading" positionX="-1588.21484375" positionY="-1394.69140625" width="128" height="88"/>
+        <element name="Subject" positionX="-926.8671875" positionY="-1948.68359375" width="207.78515625" height="208"/>
+        <element name="SubjectReading" positionX="-1168.46484375" positionY="-1777.3828125" width="128" height="58"/>
+        <element name="SubjectTranslation" positionX="-540.16015625" positionY="-2033.546875" width="128" height="103"/>
+        <element name="Translation" positionX="-293.921875" positionY="-1412.5546875" width="128" height="73"/>
+        <element name="Vocabulary" positionX="-1009.375" positionY="-1218.765625" width="128" height="58"/>
+        <element name="VocabularyReading" positionX="-1374.75" positionY="-1287.8984375" width="136.39453125" height="73"/>
+    </elements>
 </model>

@@ -1,0 +1,113 @@
+{
+    "object": "collection",
+    "url": "https://api.wanikani.com/v2/subjects?levels=4",
+    "pages": {
+        "per_page": 1,
+        "next_url": "https://api.wanikani.com/v2/subjects?levels=4&page_after_id=2632",
+        "previous_url": null
+    },
+    "total_count": 3,
+    "data_updated_at": "2019-11-15T19:05:31.102139Z",
+    "data": [
+        {
+            "id": 2632,
+            "object": "vocabulary",
+            "url": "https://api.wanikani.com/v2/subjects/2632",
+            "data_updated_at": "2019-05-02T22:40:01.767606Z",
+            "data": {
+                "created_at": "2012-03-01T18:27:45.000000Z",
+                "level": 3,
+                "slug": "外人",
+                "hidden_at": null,
+                "document_url": "https://www.wanikani.com/vocabulary/%E5%A4%96%E4%BA%BA",
+                "characters": "外人",
+                "meanings": [
+                    {
+                        "meaning": "Foreigner",
+                        "primary": true,
+                        "accepted_answer": true
+                    },
+                    {
+                        "meaning": "Outsider",
+                        "primary": false,
+                        "accepted_answer": true
+                    }
+                ],
+                "auxiliary_meanings": [],
+                "readings": [
+                    {
+                        "primary": true,
+                        "reading": "がいじん",
+                        "accepted_answer": true
+                    }
+                ],
+                "parts_of_speech": [
+                    "noun"
+                ],
+                "component_subject_ids": [
+                    521,
+                    444
+                ],
+                "meaning_mnemonic": "Meaning mnemonic for Foreigner.",
+                "reading_mnemonic": "Reading mnemonic for Foreigner.",
+                "context_sentences": [
+                    {
+                        "en": "Example sentence in English.",
+                        "ja": "Example sentence in Japanese."
+                    }
+                ],
+                "pronunciation_audios": [
+                    {
+                        "url": "https://cdn.wanikani.com/audios/32812-subject-2632.ogg?1553789636",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 24066,
+                            "pronunciation": "がいじん",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/32810-subject-2632.mp3?1553789635",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 24066,
+                            "pronunciation": "がいじん",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/12929-subject-2632.ogg?1547872975",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 7128,
+                            "pronunciation": "がいじん",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/12919-subject-2632.mp3?1547872974",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 7128,
+                            "pronunciation": "がいじん",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    }
+                ],
+                "lesson_position": 98
+            }
+        }
+    ]
+}

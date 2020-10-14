@@ -1,0 +1,28 @@
+{
+    "object": "user",
+    "url": "https://api.wanikani.com/v2/user",
+    "data_updated_at": "2019-09-07T06:24:34.911347Z",
+    "data": {
+        "id": "284c7d18-4867-45e6-95a9-7d357297cbee",
+        "username": "RfWK",
+        "level": 6,
+        "profile_url": "https://www.wanikani.com/users/Florian",
+        "started_at": "2017-03-01T10:45:29.575131Z",
+        "subscription": {
+            "active": true,
+            "type": "lifetime",
+            "max_level_granted": 60,
+            "period_ends_at": null
+        },
+        "subscribed": true,
+        "max_level_granted_by_subscription": 60,
+        "current_vacation_started_at": "2018-06-17T15:31:25.360545Z",
+        "preferences": {
+            "lessons_batch_size": 5,
+            "lessons_autoplay_audio": false,
+            "reviews_autoplay_audio": false,
+            "lessons_presentation_order": "ascending_level_then_subject",
+            "reviews_display_srs_indicator": true
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "object": "collection",
+    "url": "https://api.wanikani.com/v2/subjects?levels=4&page_after_id=2635",
+    "pages": {
+        "per_page": 1,
+        "next_url": null,
+        "previous_url": "https://api.wanikani.com/v2/subjects?levels=4&page_before_id=3474"
+    },
+    "total_count": 3,
+    "data_updated_at": "2019-11-15T19:05:31.102139Z",
+    "data": [
+        {
+            "id": 3474,
+            "object": "vocabulary",
+            "url": "https://api.wanikani.com/v2/subjects/3474",
+            "data_updated_at": "2019-05-02T22:40:24.103304Z",
+            "data": {
+                "created_at": "2012-07-25T23:15:06.780603Z",
+                "level": 9,
+                "slug": "中学校",
+                "hidden_at": null,
+                "document_url": "https://www.wanikani.com/vocabulary/%E4%B8%AD%E5%AD%A6%E6%A0%A1",
+                "characters": "中学校",
+                "meanings": [
+                    {
+                        "meaning": "Middle School",
+                        "primary": true,
+                        "accepted_answer": true
+                    },
+                    {
+                        "meaning": "Junior High School",
+                        "primary": false,
+                        "accepted_answer": true
+                    }
+                ],
+                "auxiliary_meanings": [],
+                "readings": [
+                    {
+                        "primary": true,
+                        "reading": "ちゅうがっこう",
+                        "accepted_answer": true
+                    }
+                ],
+                "parts_of_speech": [
+                    "noun"
+                ],
+                "component_subject_ids": [
+                    469,
+                    599,
+                    658
+                ],
+                "meaning_mnemonic": "Meaning mnemonic for middle school.",
+                "reading_mnemonic": "Reading mnemonic for middle school.",
+                "context_sentences": [
+                    {
+                        "en": "Example sentence in English.",
+                        "ja": "Example sentence in Japanese."
+                    }
+                ],
+                "pronunciation_audios": [
+                    {
+                        "url": "https://cdn.wanikani.com/audios/40441-subject-3474.ogg?1553791772",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 27904,
+                            "pronunciation": "ちゅうがっこう",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/40440-subject-3474.mp3?1553791771",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 27904,
+                            "pronunciation": "ちゅうがっこう",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/20532-subject-3474.ogg?1547875112",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 11025,
+                            "pronunciation": "ちゅうがっこう",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/20531-subject-3474.mp3?1547875112",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 11025,
+                            "pronunciation": "ちゅうがっこう",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    }
+                ],
+                "lesson_position": 133
+            }
+        }
+    ]
+}

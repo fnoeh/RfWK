@@ -1,0 +1,108 @@
+{
+    "object": "collection",
+    "url": "https://api.wanikani.com/v2/subjects?levels=4&page_after_id=2632",
+    "pages": {
+        "per_page": 1,
+        "next_url": "https://api.wanikani.com/v2/subjects?levels=4&page_after_id=2635",
+        "previous_url": "https://api.wanikani.com/v2/subjects?levels=4&page_before_id=2635"
+    },
+    "total_count": 3,
+    "data_updated_at": "2019-11-15T19:05:31.102139Z",
+    "data": [
+        {
+            "id": 2635,
+            "object": "vocabulary",
+            "url": "https://api.wanikani.com/v2/subjects/2635",
+            "data_updated_at": "2019-10-08T00:21:58.183082Z",
+            "data": {
+                "created_at": "2012-03-01T18:28:09.000000Z",
+                "level": 3,
+                "slug": "市",
+                "hidden_at": null,
+                "document_url": "https://www.wanikani.com/vocabulary/%E5%B8%82",
+                "characters": "市",
+                "meanings": [
+                    {
+                        "meaning": "City",
+                        "primary": true,
+                        "accepted_answer": true
+                    }
+                ],
+                "auxiliary_meanings": [],
+                "readings": [
+                    {
+                        "primary": true,
+                        "reading": "し",
+                        "accepted_answer": true
+                    }
+                ],
+                "parts_of_speech": [
+                    "noun",
+                    "suffix"
+                ],
+                "component_subject_ids": [
+                    522
+                ],
+                "meaning_mnemonic": "Meaning mnemonic for city.",
+                "reading_mnemonic": "Reading mnemonic for city.",
+                "context_sentences": [
+                    {
+                        "en": "Example sentence in English.",
+                        "ja": "Example sentence in Japanese."
+                    }
+                ],
+                "pronunciation_audios": [
+                    {
+                        "url": "https://cdn.wanikani.com/audios/32856-subject-2635.ogg?1553789642",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 24073,
+                            "pronunciation": "し",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/32853-subject-2635.mp3?1553789642",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 24073,
+                            "pronunciation": "し",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/12931-subject-2635.mp3?1547872975",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 7136,
+                            "pronunciation": "し",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/12925-subject-2635.ogg?1547872975",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 7136,
+                            "pronunciation": "し",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    }
+                ],
+                "lesson_position": 101
+            }
+        }
+    ]
+}

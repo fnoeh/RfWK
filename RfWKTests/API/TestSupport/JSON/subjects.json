@@ -1,0 +1,216 @@
+{
+    "object": "collection",
+    "url": "https://api.wanikani.com/v2/subjects?levels=3&types=vocabulary",
+    "pages": {
+        "per_page": 1000,
+        "next_url": null,
+        "previous_url": null
+    },
+    "total_count": 70,
+    "data_updated_at": "2019-08-27T22:38:04.941086Z",
+    "data": [
+        {
+            "id": 2478,
+            "object": "vocabulary",
+            "url": "https://api.wanikani.com/v2/subjects/2478",
+            "data_updated_at": "2019-05-02T22:40:00.262281Z",
+            "data": {
+                "created_at": "2012-02-28T08:15:23.000000Z",
+                "level": 3,
+                "slug": "アメリカ人",
+                "hidden_at": null,
+                "document_url": "https://www.wanikani.com/vocabulary/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E4%BA%BA",
+                "characters": "アメリカ人",
+                "meanings": [
+                    {
+                        "meaning": "American",
+                        "primary": true,
+                        "accepted_answer": true
+                    },
+                    {
+                        "meaning": "American Person",
+                        "primary": false,
+                        "accepted_answer": true
+                    }
+                ],
+                "auxiliary_meanings": [],
+                "readings": [
+                    {
+                        "primary": true,
+                        "reading": "あめりかじん",
+                        "accepted_answer": true
+                    },
+                    {
+                        "primary": false,
+                        "reading": "アメリカじん",
+                        "accepted_answer": true
+                    }
+                ],
+                "parts_of_speech": [
+                    "noun"
+                ],
+                "component_subject_ids": [
+                    444
+                ],
+                "meaning_mnemonic": "Meaning mnemonic for american.",
+                "reading_mnemonic": "Reading mnemonic for american.",
+                "context_sentences": [
+                    {
+                        "en": "Example sentence in English.",
+                        "ja": "Example sentence in Japanese."
+                    }
+                ],
+                "pronunciation_audios": [
+                    {
+                        "url": "https://cdn.wanikani.com/audios/27995-subject-2478.mp3?1553788713",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 21646,
+                            "pronunciation": "あめりかじん",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/27989-subject-2478.ogg?1553788713",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 21646,
+                            "pronunciation": "あめりかじん",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/3154-subject-2478.ogg?1547862385",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 2731,
+                            "pronunciation": "あめりかじん",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/3151-subject-2478.mp3?1547862384",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 2731,
+                            "pronunciation": "あめりかじん",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    }
+                ],
+                "lesson_position": 51
+            }
+        },
+        {
+            "id": 2574,
+            "object": "vocabulary",
+            "url": "https://api.wanikani.com/v2/subjects/2574",
+            "data_updated_at": "2019-05-02T22:40:00.320205Z",
+            "data": {
+                "created_at": "2012-02-29T07:49:48.000000Z",
+                "level": 3,
+                "slug": "ビー玉",
+                "hidden_at": null,
+                "document_url": "https://www.wanikani.com/vocabulary/%E3%83%93%E3%83%BC%E7%8E%89",
+                "characters": "ビー玉",
+                "meanings": [
+                    {
+                        "meaning": "Marble",
+                        "primary": true,
+                        "accepted_answer": true
+                    }
+                ],
+                "auxiliary_meanings": [],
+                "readings": [
+                    {
+                        "primary": true,
+                        "reading": "びーだま",
+                        "accepted_answer": true
+                    },
+                    {
+                        "primary": false,
+                        "reading": "ビーだま",
+                        "accepted_answer": true
+                    }
+                ],
+                "parts_of_speech": [
+                    "noun"
+                ],
+                "component_subject_ids": [
+                    489
+                ],
+                "meaning_mnemonic": "Meaning mnemonic for marble.",
+                "reading_mnemonic": "Reading mnemonic for marble.",
+                "context_sentences": [
+                    {
+                        "en": "Example sentence in English.",
+                        "ja": "Example sentence in Japanese."
+                    }
+                ],
+                "pronunciation_audios": [
+                    {
+                        "url": "https://cdn.wanikani.com/audios/30404-subject-2574.ogg?1553789109",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 22864,
+                            "pronunciation": "びーだま",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/30400-subject-2574.mp3?1553789108",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 22864,
+                            "pronunciation": "びーだま",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/20831-subject-2574.ogg?1547884090",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 4662,
+                            "pronunciation": "びーだま",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/20829-subject-2574.mp3?1547884089",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 4662,
+                            "pronunciation": "びーだま",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    }
+                ],
+                "lesson_position": 53
+            }
+        }
+    ]
+}

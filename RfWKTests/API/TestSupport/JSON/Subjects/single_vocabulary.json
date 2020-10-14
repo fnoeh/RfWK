@@ -1,0 +1,100 @@
+{
+    "id": 2854,
+    "object": "vocabulary",
+    "url": "https://api.wanikani.com/v2/subjects/2854",
+    "data_updated_at": "2019-05-01T18:53:55.876056Z",
+    "data": {
+        "created_at": "2012-03-09T00:36:02.000000Z",
+        "level": 6,
+        "slug": "全て",
+        "hidden_at": null,
+        "document_url": "https://www.wanikani.com/vocabulary/%E5%85%A8%E3%81%A6",
+        "characters": "全て",
+        "meanings": [
+            {
+                "meaning": "All",
+                "primary": true,
+                "accepted_answer": true
+            },
+            {
+                "meaning": "Entire",
+                "primary": false,
+                "accepted_answer": true
+            }
+        ],
+        "auxiliary_meanings": [],
+        "readings": [
+            {
+                "primary": true,
+                "reading": "すべて",
+                "accepted_answer": true
+            }
+        ],
+        "parts_of_speech": [
+            "noun",
+            "の adjective"
+        ],
+        "component_subject_ids": [
+            610
+        ],
+        "meaning_mnemonic": "Meaning mnemonic for all.",
+        "reading_mnemonic": "Reading mnemonic for all.",
+        "context_sentences": [
+            {
+                "en": "Example sentence in English.",
+                "ja": "Exampla sentence in Japanese."
+            }
+        ],
+        "pronunciation_audios": [
+            {
+                "url": "https://cdn.wanikani.com/audios/39536-subject-2854.mp3?1553791112",
+                "metadata": {
+                    "gender": "female",
+                    "source_id": 27446,
+                    "pronunciation": "すべて",
+                    "voice_actor_id": 1,
+                    "voice_actor_name": "Kyoko",
+                    "voice_description": "Tokyo accent"
+                },
+                "content_type": "audio/mpeg"
+            },
+            {
+                "url": "https://cdn.wanikani.com/audios/39535-subject-2854.ogg?1553791112",
+                "metadata": {
+                    "gender": "female",
+                    "source_id": 27446,
+                    "pronunciation": "すべて",
+                    "voice_actor_id": 1,
+                    "voice_actor_name": "Kyoko",
+                    "voice_description": "Tokyo accent"
+                },
+                "content_type": "audio/ogg"
+            },
+            {
+                "url": "https://cdn.wanikani.com/audios/19638-subject-2854.mp3?1547874607",
+                "metadata": {
+                    "gender": "male",
+                    "source_id": 10570,
+                    "pronunciation": "すべて",
+                    "voice_actor_id": 2,
+                    "voice_actor_name": "Kenichi",
+                    "voice_description": "Tokyo accent"
+                },
+                "content_type": "audio/mpeg"
+            },
+            {
+                "url": "https://cdn.wanikani.com/audios/19635-subject-2854.ogg?1547874607",
+                "metadata": {
+                    "gender": "male",
+                    "source_id": 10570,
+                    "pronunciation": "すべて",
+                    "voice_actor_id": 2,
+                    "voice_actor_name": "Kenichi",
+                    "voice_description": "Tokyo accent"
+                },
+                "content_type": "audio/ogg"
+            }
+        ],
+        "lesson_position": 24
+    }
+}

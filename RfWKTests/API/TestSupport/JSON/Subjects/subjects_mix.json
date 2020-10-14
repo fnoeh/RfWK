@@ -1,0 +1,407 @@
+{
+    "object": "collection",
+    "url": "https://api.wanikani.com/v2/subjects?levels=5",
+    "pages": {
+        "per_page": 1000,
+        "next_url": null,
+        "previous_url": null
+    },
+    "total_count": 3,
+    "data_updated_at": "2019-09-24T18:03:32.822731Z",
+    "data": [
+        {
+            "id": 103,
+            "object": "radical",
+            "url": "https://api.wanikani.com/v2/subjects/103",
+            "data_updated_at": "2019-08-29T18:46:01.017308Z",
+            "data": {
+                "created_at": "2012-03-03T02:07:12.000000Z",
+                "level": 5,
+                "slug": "tsunami",
+                "hidden_at": null,
+                "document_url": "https://www.wanikani.com/radicals/tsunami",
+                "characters": "氵",
+                "character_images": [
+                    {
+                        "url": "https://cdn.wanikani.com/images/207-subject-103-with-css-original.svg?1520987110",
+                        "metadata": {
+                            "inline_styles": true
+                        },
+                        "content_type": "image/svg+xml"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/images/685-subject-103-without-css-original.svg?1520987257",
+                        "metadata": {
+                            "inline_styles": false
+                        },
+                        "content_type": "image/svg+xml"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/images/1163-subject-103-normal-weight-black-original.png?1520987891",
+                        "metadata": {
+                            "color": "#000000",
+                            "dimensions": "1024x1024",
+                            "style_name": "original"
+                        },
+                        "content_type": "image/png"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/images/1163-subject-103-normal-weight-black-1024px.png?1520987891",
+                        "metadata": {
+                            "color": "#000000",
+                            "dimensions": "1024x1024",
+                            "style_name": "1024px"
+                        },
+                        "content_type": "image/png"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/images/1163-subject-103-normal-weight-black-512px.png?1520987891",
+                        "metadata": {
+                            "color": "#000000",
+                            "dimensions": "512x512",
+                            "style_name": "512px"
+                        },
+                        "content_type": "image/png"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/images/1163-subject-103-normal-weight-black-256px.png?1520987891",
+                        "metadata": {
+                            "color": "#000000",
+                            "dimensions": "256x256",
+                            "style_name": "256px"
+                        },
+                        "content_type": "image/png"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/images/1163-subject-103-normal-weight-black-128px.png?1520987891",
+                        "metadata": {
+                            "color": "#000000",
+                            "dimensions": "128x128",
+                            "style_name": "128px"
+                        },
+                        "content_type": "image/png"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/images/1163-subject-103-normal-weight-black-64px.png?1520987891",
+                        "metadata": {
+                            "color": "#000000",
+                            "dimensions": "64x64",
+                            "style_name": "64px"
+                        },
+                        "content_type": "image/png"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/images/1163-subject-103-normal-weight-black-32px.png?1520987891",
+                        "metadata": {
+                            "color": "#000000",
+                            "dimensions": "32x32",
+                            "style_name": "32px"
+                        },
+                        "content_type": "image/png"
+                    }
+                ],
+                "meanings": [
+                    {
+                        "meaning": "Tsunami",
+                        "primary": true,
+                        "accepted_answer": true
+                    }
+                ],
+                "auxiliary_meanings": [],
+                "amalgamation_subject_ids": [
+                    573,
+                    639,
+                    640,
+                    687,
+                    717,
+                    743,
+                    749,
+                    757,
+                    793,
+                    794,
+                    798,
+                    818,
+                    819,
+                    831,
+                    842,
+                    843,
+                    844,
+                    949,
+                    950,
+                    951,
+                    978,
+                    979,
+                    1016,
+                    1038,
+                    1043,
+                    1059,
+                    1078,
+                    1124,
+                    1136,
+                    1196,
+                    1200,
+                    1208,
+                    1252,
+                    1253,
+                    1271,
+                    1295,
+                    1306,
+                    1308,
+                    1338,
+                    1356,
+                    1357,
+                    1376,
+                    1385,
+                    1407,
+                    1414,
+                    1433,
+                    1434,
+                    1456,
+                    1487,
+                    1506,
+                    1512,
+                    1534,
+                    1567,
+                    1568,
+                    1581,
+                    1585,
+                    1597,
+                    1606,
+                    1609,
+                    1627,
+                    1629,
+                    1645,
+                    1657,
+                    1717,
+                    1767,
+                    1777,
+                    1791,
+                    1824,
+                    1825,
+                    1826,
+                    1849,
+                    1865,
+                    1866,
+                    1868,
+                    1869,
+                    1897,
+                    1906,
+                    1933,
+                    1937,
+                    1938,
+                    1954,
+                    1962,
+                    2003,
+                    2030,
+                    2044,
+                    2065,
+                    2066,
+                    2076,
+                    2093,
+                    2095,
+                    2101,
+                    2110,
+                    2116,
+                    2117,
+                    2125,
+                    2126,
+                    2147,
+                    2153,
+                    2180,
+                    2192,
+                    2314,
+                    2336,
+                    2372,
+                    2378,
+                    2388,
+                    2398,
+                    2410,
+                    2426,
+                    2432,
+                    2434,
+                    2444,
+                    2447,
+                    2460,
+                    2461,
+                    2462
+                ],
+                "meaning_mnemonic": "Meaning mnemonic for tsunami.",
+                "lesson_position": 0
+            }
+        },
+        {
+            "id": 515,
+            "object": "kanji",
+            "url": "https://api.wanikani.com/v2/subjects/515",
+            "data_updated_at": "2019-05-02T22:40:03.544819Z",
+            "data": {
+                "created_at": "2012-03-01T03:45:02.000000Z",
+                "level": 5,
+                "slug": "兄",
+                "hidden_at": null,
+                "document_url": "https://www.wanikani.com/kanji/%E5%85%84",
+                "characters": "兄",
+                "meanings": [
+                    {
+                        "meaning": "Older Brother",
+                        "primary": true,
+                        "accepted_answer": true
+                    },
+                    {
+                        "meaning": "Big Brother",
+                        "primary": false,
+                        "accepted_answer": true
+                    },
+                    {
+                        "meaning": "Elder Brother",
+                        "primary": false,
+                        "accepted_answer": true
+                    }
+                ],
+                "auxiliary_meanings": [],
+                "readings": [
+                    {
+                        "type": "onyomi",
+                        "primary": true,
+                        "reading": "きょう",
+                        "accepted_answer": true
+                    },
+                    {
+                        "type": "kunyomi",
+                        "primary": false,
+                        "reading": "あに",
+                        "accepted_answer": false
+                    }
+                ],
+                "component_subject_ids": [
+                    16,
+                    28
+                ],
+                "amalgamation_subject_ids": [
+                    2620,
+                    2621,
+                    2821,
+                    5748,
+                    7717
+                ],
+                "visually_similar_subject_ids": [],
+                "meaning_mnemonic": "Meaning mnemonic for older brother.",
+                "meaning_hint": "Meaning hint for older brother.",
+                "reading_mnemonic": "Reading mnemonic for older brother.",
+                "reading_hint": "Reading hint for older brother.",
+                "lesson_position": 27
+            }
+        },
+        {
+            "id": 2741,
+            "object": "vocabulary",
+            "url": "https://api.wanikani.com/v2/subjects/2741",
+            "data_updated_at": "2019-05-02T22:40:05.168841Z",
+            "data": {
+                "created_at": "2012-03-06T08:16:13.000000Z",
+                "level": 5,
+                "slug": "大会",
+                "hidden_at": null,
+                "document_url": "https://www.wanikani.com/vocabulary/%E5%A4%A7%E4%BC%9A",
+                "characters": "大会",
+                "meanings": [
+                    {
+                        "meaning": "Convention",
+                        "primary": true,
+                        "accepted_answer": true
+                    },
+                    {
+                        "meaning": "Tournament",
+                        "primary": false,
+                        "accepted_answer": true
+                    },
+                    {
+                        "meaning": "Meetup",
+                        "primary": false,
+                        "accepted_answer": true
+                    },
+                    {
+                        "meaning": "Event",
+                        "primary": false,
+                        "accepted_answer": true
+                    }
+                ],
+                "auxiliary_meanings": [],
+                "readings": [
+                    {
+                        "primary": true,
+                        "reading": "たいかい",
+                        "accepted_answer": true
+                    }
+                ],
+                "parts_of_speech": [
+                    "noun",
+                    "の adjective"
+                ],
+                "component_subject_ids": [
+                    453,
+                    566
+                ],
+                "meaning_mnemonic": "Meaning mnemonic for convention.",
+                "reading_mnemonic": "Reading mnemonic for convention.",
+                "context_sentences": [
+                    {
+                        "en": "Example sentence in English.",
+                        "ja": "Example sentence in Japanese."
+                    }
+                ],
+                "pronunciation_audios": [
+                    {
+                        "url": "https://cdn.wanikani.com/audios/37456-subject-2741.mp3?1553790586",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 26381,
+                            "pronunciation": "たいかい",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/37450-subject-2741.ogg?1553790586",
+                        "metadata": {
+                            "gender": "female",
+                            "source_id": 26381,
+                            "pronunciation": "たいかい",
+                            "voice_actor_id": 1,
+                            "voice_actor_name": "Kyoko",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/17548-subject-2741.ogg?1547874034",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 9506,
+                            "pronunciation": "たいかい",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/ogg"
+                    },
+                    {
+                        "url": "https://cdn.wanikani.com/audios/17544-subject-2741.mp3?1547874034",
+                        "metadata": {
+                            "gender": "male",
+                            "source_id": 9506,
+                            "pronunciation": "たいかい",
+                            "voice_actor_id": 2,
+                            "voice_actor_name": "Kenichi",
+                            "voice_description": "Tokyo accent"
+                        },
+                        "content_type": "audio/mpeg"
+                    }
+                ],
+                "lesson_position": 73
+            }
+        },
+    ]
+}
